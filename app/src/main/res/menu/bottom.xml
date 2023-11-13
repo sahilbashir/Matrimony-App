@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_profile"
+        android:title=""/>
+
+    <item android:id="@+id/nav_match"
+        android:icon="@drawable/ic_baseline_match"
+        android:title=""/>
+
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home"
+        android:title=""/>
+
+    <item android:id="@+id/nav_chat"
+        android:icon="@drawable/ic_baseline_chat"
+        android:title=""/>
+
+    <item android:id="@+id/nav_request"
+        android:icon="@drawable/ic_baseline_like"
+        android:title=""/>
+
+
+</menu>

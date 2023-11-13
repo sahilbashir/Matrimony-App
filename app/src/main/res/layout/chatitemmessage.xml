@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutChat"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/messagesend"
+            android:layout_alignParentEnd="true"
+            android:text="Hello World"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#8FCBE7"
+            android:background="@drawable/rounded_corner"
+            android:padding="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutChat2"
+        android:visibility="visible"
+        android:layout_below="@+id/layoutChat">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/messagerecevied"
+            android:layout_alignParentEnd="false"
+            android:text="Hello World"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#81ACE8"
+            android:background="@drawable/rounded_corner"
+            android:padding="10dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

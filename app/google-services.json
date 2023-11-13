@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "859801964056",
+    "project_id": "matrimony-app-6da14",
+    "storage_bucket": "matrimony-app-6da14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859801964056:android:fc698d4ae9bb0379dabd6d",
+        "android_client_info": {
+          "package_name": "com.prathamesh.matrimonyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859801964056-os74s25bhnpsjibtk2itm4i3u86egk8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfRvKnfpr2-cbZqOBcy9rrQmZbUSwce7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859801964056-os74s25bhnpsjibtk2itm4i3u86egk8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
